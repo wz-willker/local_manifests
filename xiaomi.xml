@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="hardware/xiaomi" remote="github" name="LineageOS/android_hardware_xiaomi" />
+</manifest>

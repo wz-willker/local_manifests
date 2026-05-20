@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <project path="device/xiaomi/nabu" remote="github" name="wz-willker/android_device_xiaomi_nabu" />
+  <project path="kernel/xiaomi/nabu" remote="github" name="wz-willker/android_kernel_xiaomi_nabu" />
+  <project path="vendor/xiaomi/nabu" remote="gitlab" name="dev-harsh1998/android_vendor_xiaomi_nabu" revision="refs/heads/lineage-23.0" />
+</manifest>
