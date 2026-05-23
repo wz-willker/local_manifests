@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remove-project name="LineageOS/android_kernel_configs" />
+  <project path="kernel/configs" name="wz-willker/android_kernel_configs" groups="vts,pdk" />
+</manifest>
