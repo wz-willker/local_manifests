@@ -1,3 +1,5 @@
+## 20260525
+- 适配 Droidspaces
 ## 20260524
 - 移除 KernelSU-Next 和 SUSFS
 - 修改设备指纹以匹配系统版本
