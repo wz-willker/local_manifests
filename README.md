@@ -15,3 +15,5 @@ repo sync --no-tags
 - [Pzqqt](https://github.com/Pzqqt)  
 - [WeiguangTWK](https://github.com/WeiguangTWK)  
 - [GrapheneOS](https://github.com/GrapheneOS)  
+- Project NH  
+- [microg](https://github.com/microg)
