@@ -16,4 +16,4 @@ repo sync --no-tags
 - [WeiguangTWK](https://github.com/WeiguangTWK)  
 - [GrapheneOS](https://github.com/GrapheneOS)  
 - Project NH  
-- [microg](https://github.com/microg)
+- [microG Project](https://github.com/microg)
