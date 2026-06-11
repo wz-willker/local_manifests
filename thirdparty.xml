@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
+  <remote  name="angry"
+           fetch="https://gitea.angry.im/" />
+
   <project path="packages/apps/ParanoidSense" name="AviumUI/android_packages_apps_ParanoidSense" remote="github" revision="refs/heads/avium-16.2" />
   <project path="packages/apps/CatShare" name="AviumUI/android_packages_apps_CatShare" remote="github" revision="refs/heads/avium-16.2" />
+  <project path="packages/apps/OpenEUICC" name="PeterCxy/OpenEUICC" remote="angry" revision="refs/heads/master" sync-s="true" />
+  <project path="prebuilts/openeuicc-deps" name="PeterCxy/android_prebuilts_openeuicc-deps" remote="angry" revision="refs/heads/master" />
 </manifest>
