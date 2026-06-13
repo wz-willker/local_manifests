@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="device/google/lynx" remote="github" name="wz-LineageOS/android_device_google_lynx" />
+  <project path="vendor/google/lynx" remote="github" name="TheMuppets/proprietary_vendor_google_lynx" />
+  <project path="device/google/lynx-kernels" remote="github" name="LineageOS/android_device_google_lynx-kernels" />
+  <project path="device/google/gs201" remote="github" name="LineageOS/android_device_google_gs201" />
+  <project path="device/google/gs-common" remote="github" name="LineageOS/android_device_google_gs-common" />
+</manifest>
