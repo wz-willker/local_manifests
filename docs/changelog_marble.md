@@ -1,3 +1,5 @@
+## 20260611
+- 合并 [LineageOS Qcom](https://github.com/LineageOS/android_kernel_qcom_sm8450) (5.10.256) 和 [AOSP android12-5.10-lts](https://android.googlesource.com/kernel/common/+/refs/heads/android12-5.10-lts) (5.10.257) 内核更新
 ## 20260607
 - 更新6月1日补丁
 ## 20260604

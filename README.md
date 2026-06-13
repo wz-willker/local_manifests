@@ -6,6 +6,25 @@ git clone https://github.com/wz-willker/local_manifests.git
 cd ..
 repo sync --no-tags
 ```
+## 相交官方改动
+### 通用
+- 使用 GrapheneOS 提供的网络验证地址
+- 启用 microg 签名伪装
+- 修复支付宝聊天页面闪退
+- 添加 CatShare
+- 添加人脸解锁
+### Redmi Note 12 Turbo
+- 还原内核 GKI 兼容性
+- 修改内核名称为 KMI 标准版本号
+- 修改设备指纹以匹配系统版本
+- 内置假小米安全中心以伪装设备可信
+- 适配 Droidspaces
+- 合并 [LineageOS Qcom](https://github.com/LineageOS/android_kernel_qcom_sm8450) 和 [AOSP android12-5.10-lts](https://android.googlesource.com/kernel/common/+/refs/heads/android12-5.10-lts) 最新内核更新
+### Xiaomi Pad 5
+- 移除 KernelSU-Next 和 SUSFS
+- 修改设备指纹以匹配系统版本
+- 内置假小米安全中心以伪装设备可信
+- 内置 ReSukiSU
 ## 更新日志
 - [Redmi Note 12 Turbo](docs/changelog_marble.md)
 - [Xiaomi Pad 5](docs/changelog_nabu.md)
