@@ -1,3 +1,7 @@
+## 20260613
+- 添加 OpenEUICC（实体 esim 支持）
+- 替换相机为 MIUI 相机
+- 调整 5G 信号显示阈值
 ## 20260611
 - 合并 [LineageOS Qcom](https://github.com/LineageOS/android_kernel_qcom_sm8450) (5.10.256) 和 [AOSP android12-5.10-lts](https://android.googlesource.com/kernel/common/+/refs/heads/android12-5.10-lts) (5.10.257) 内核更新
 ## 20260607
