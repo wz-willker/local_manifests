@@ -3,11 +3,11 @@
 <manifest>
   <!-- from LineageOS -->
   <remove-project name="LineageOS/android_kernel_configs" />
-  <project path="kernel/configs" name="wz-willker/android_kernel_configs" groups="vts,pdk" />
+  <project remote="github" path="kernel/configs" name="wz-willker/android_kernel_configs" groups="vts,pdk" />
   <remove-project name="LineageOS/android_vendor_lineage" />
-  <project path="vendor/lineage" name="wz-willker/android_vendor_lineage" />
+  <project remote="github" path="vendor/lineage" name="wz-willker/android_vendor_lineage" />
   <remove-project name="LineageOS/android_frameworks_base" />
-  <project path="frameworks/base" name="wz-willker/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
+  <project remote="github" path="frameworks/base" name="wz-willker/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
   <!-- from AOSP -->
   <remove-project name="platform/packages/apps/CarrierConfig" />
   <project path="packages/apps/CarrierConfig" name="wz-willker/android_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" />
