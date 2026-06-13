@@ -13,6 +13,7 @@ repo sync --no-tags
 - 添加 CatShare
 - 添加人脸解锁
 - 调整 5G 信号显示阈值
+- 更换 NTP 服务器为 pool.ntp.org
 ### Redmi Note 12 Turbo
 - 还原内核 GKI 兼容性
 - 修改内核名称为 KMI 标准版本号
@@ -27,6 +28,8 @@ repo sync --no-tags
 - 修改设备指纹以匹配系统版本
 - 内置假小米安全中心以伪装设备可信
 - 内置 ReSukiSU
+### Google Pixel 7a
+- 修改设备指纹以匹配系统版本
 ## 更新日志
 - [Redmi Note 12 Turbo](docs/changelog_marble.md)
 - [Xiaomi Pad 5](docs/changelog_nabu.md)
@@ -55,5 +58,7 @@ repo sync --no-tags
 - [marble MIUI 相机](https://github.com/Chaitanyakm/device_xiaomi_miuicamera-marble)
 ### [克莱德](https://sspai.com/u/clyde/updates)
 - [国内 5G 信号阈值调整](https://sspai.com/post/78200)
+### [NTP Pool Project](pool.ntp.org)
+- NTP 服务器
 ## 特别鸣谢
 - [Gemini](https://gemini.google.com/)
