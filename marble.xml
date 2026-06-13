@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- need xiaomi.xml -->
+<!-- need xiaomi.xml remote.xml -->
 <manifest>
   <!-- marble -->
   <project path="device/xiaomi/marble" remote="github" name="wz-willker/android_device_xiaomi_marble" />
   <project path="vendor/xiaomi/marble" remote="github" name="TheMuppets/proprietary_vendor_xiaomi_marble" />
+  <project path="device/xiaomi/miuicamera-marble" remote="github" name="Chaitanyakm/device_xiaomi_miuicamera-marble" revision="refs/heads/16.0" />
+  <project path="vendor/xiaomi/miuicamera-marble" remote="gitlab" name="Chaitanyakm/vendor_xiaomi_miuicamera-marble" revision="refs/heads/fifteen" />
   <!-- sm8450 -->
   <project path="device/xiaomi/sm8450-common" remote="github" name="wz-willker/android_device_xiaomi_sm8450-common" />
   <project path="vendor/xiaomi/sm8450-common" remote="github" name="TheMuppets/proprietary_vendor_xiaomi_sm8450-common" />
