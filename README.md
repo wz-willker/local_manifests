@@ -1,9 +1,8 @@
 ## 如何使用
 ```
+git clone https://github.com/wz-willker/LineageOS.git
+cd LineageOS/src
 repo init -u https://github.com/LineageOS/android.git -b lineage-23.2 --git-lfs --no-clone-bundle --depth=1
-cd .repo
-git clone https://github.com/wz-willker/local_manifests.git
-cd ..
 repo sync --no-tags
 ```
 ## 相较官方改动
