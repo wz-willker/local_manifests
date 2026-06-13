@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- need xiaomi.xml -->
 <manifest>
   <!-- marble -->
   <project path="device/xiaomi/marble" remote="github" name="wz-willker/android_device_xiaomi_marble" />
   <project path="vendor/xiaomi/marble" remote="github" name="TheMuppets/proprietary_vendor_xiaomi_marble" />
   <!-- sm8450 -->
   <project path="device/xiaomi/sm8450-common" remote="github" name="wz-willker/android_device_xiaomi_sm8450-common" />
+  <project path="vendor/xiaomi/sm8450-common" remote="github" name="TheMuppets/proprietary_vendor_xiaomi_sm8450-common" />
   <project path="kernel/xiaomi/sm8450" remote="github" name="wz-willker/android_kernel_xiaomi_sm8450" />
   <project path="kernel/xiaomi/sm8450-devicetrees" remote="github" name="LineageOS/android_kernel_xiaomi_sm8450-devicetrees" />
   <project path="kernel/xiaomi/sm8450-modules" remote="github" name="LineageOS/android_kernel_xiaomi_sm8450-modules" />
-  <project path="vendor/xiaomi/sm8450-common" remote="github" name="TheMuppets/proprietary_vendor_xiaomi_sm8450-common" />
-
+  <!-- clang symlink need by kernel -->
   <remove-project name="LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b" />
   <project path="prebuilts/clang/kernel/linux-x86/clang-r416183b" name="LineageOS/android_prebuilts_clang_kernel_linux-x86_clang-r416183b" clone-depth="1" revision="lineage-20.0" >
     <linkfile src="." dest="prebuilts/clang/host/linux-x86/clang-r416183b" />
