@@ -5,4 +5,6 @@
   <project path="device/google/lynx-kernels" remote="github" name="LineageOS/android_device_google_lynx-kernels" />
   <project path="device/google/gs201" remote="github" name="LineageOS/android_device_google_gs201" />
   <project path="device/google/gs-common" remote="github" name="LineageOS/android_device_google_gs-common" />
+  <project path="vendor/google/camera" remote="gitlab" name="crdroidandroid/proprietary_vendor_google_camera" revision="refs/heads/16.0" />
+  <project path="vendor/google/faceunlock" remote="gitlab" name="crdroidandroid/proprietary_vendor_google_faceunlock" revision="refs/heads/16.0" />
 </manifest>

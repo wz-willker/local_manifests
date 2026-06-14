@@ -30,6 +30,8 @@ repo sync --no-tags
 - 内置 ReSukiSU
 ### Google Pixel 7a
 - 修改设备指纹以匹配系统版本
+- 替换相机为 Pixel 相机
+- 添加 Pixel 人脸解锁
 ## 更新日志
 - [Redmi Note 12 Turbo](docs/changelog_marble.md)
 - [Xiaomi Pad 5](docs/changelog_nabu.md)
@@ -60,5 +62,8 @@ repo sync --no-tags
 - [国内 5G 信号阈值调整](https://sspai.com/post/78200)
 ### [NTP Pool Project](pool.ntp.org)
 - NTP 服务器
+### [crDroid Android](https://github.com/crdroidandroid)
+- [Pixel 相机](https://gitlab.com/crdroidandroid/proprietary_vendor_google_camera)
+- [Pixel 人脸解锁](https://gitlab.com/crdroidandroid/proprietary_vendor_google_faceunlock)
 ## 特别鸣谢
 - [Gemini](https://gemini.google.com/)
