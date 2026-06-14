@@ -1,3 +1,5 @@
 *
 !.gitignore
 !.repo/local_manifests
+!setup.sh
+!ccachesetup.sh
