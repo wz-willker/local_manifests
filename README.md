@@ -14,6 +14,7 @@ repo sync --no-tags
 - 添加人脸解锁
 - 调整 5G 信号显示阈值
 - 更换 NTP 服务器为 pool.ntp.org
+- 修复打开部分 app（如 MIUI 相机）后亮度跳变
 ### Redmi Note 12 Turbo
 - 还原内核 GKI 兼容性
 - 修改内核名称为 KMI 标准版本号
@@ -65,5 +66,6 @@ repo sync --no-tags
 ### [crDroid Android](https://github.com/crdroidandroid)
 - [Pixel 相机](https://gitlab.com/crdroidandroid/proprietary_vendor_google_camera)
 - [Pixel 人脸解锁](https://gitlab.com/crdroidandroid/proprietary_vendor_google_faceunlock)
+- [修复打开部分 app 后亮度跳变](https://github.com/crdroidandroid/android_frameworks_base/commit/990eab39af6c848fe7d7650cac616633b4a8dce7)
 ## 特别鸣谢
 - [Gemini](https://gemini.google.com/)
