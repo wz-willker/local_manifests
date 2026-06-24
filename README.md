@@ -67,5 +67,7 @@ repo sync --no-tags
 - [Pixel 相机](https://gitlab.com/crdroidandroid/proprietary_vendor_google_camera)
 - [Pixel 人脸解锁](https://gitlab.com/crdroidandroid/proprietary_vendor_google_faceunlock)
 - [修复打开部分 app 后亮度跳变](https://github.com/crdroidandroid/android_frameworks_base/commit/990eab39af6c848fe7d7650cac616633b4a8dce7)
+### [Chromium](https://download-chromium.appspot.com/?platform=Android&type=snapshots)
+- 替换默认浏览器
 ## 特别鸣谢
 - [Gemini](https://gemini.google.com/)
