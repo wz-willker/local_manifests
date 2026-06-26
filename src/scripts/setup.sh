@@ -1,3 +1,3 @@
 #!/bin/sh
-. ./ccachesetup.sh
+. scripts/ccachesetup.sh
 . build/envsetup.sh
