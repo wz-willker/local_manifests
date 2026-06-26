@@ -10,6 +10,8 @@
   <project remote="github" path="frameworks/base" name="wz-willker/android_frameworks_base" groups="pdk-cw-fs,pdk-fs,sysui-studio" />
   <remove-project name="LineageOS/android_packages_apps_Settings" />
   <project path="packages/apps/Settings" name="wz-willker/android_packages_apps_Settings" groups="pdk-fs,pdk-cw-tvc,sysui-studio" />
+  <remove-project name="LineageOS/android_packages_apps_Updater" />
+  <project path="packages/apps/Updater" name="wz-willker/android_packages_apps_Updater" />
   <!-- from AOSP -->
   <remove-project name="platform/packages/apps/CarrierConfig" />
   <project path="packages/apps/CarrierConfig" name="wz-willker/android_packages_apps_CarrierConfig" groups="pdk-cw-fs,pdk-fs" />
