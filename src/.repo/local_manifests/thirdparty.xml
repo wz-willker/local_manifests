@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="packages/apps/Chromium" remote="github" name="wz-willker/android_packages_apps_Chromium" />
-
   <project path="packages/apps/ParanoidSense" remote="github" name="AviumUI/android_packages_apps_ParanoidSense" revision="refs/heads/avium-16.2" />
-  <project path="packages/apps/CatShare" remote="github" name="AviumUI/android_packages_apps_CatShare" revision="refs/heads/avium-16.2" />
+  <project path="vendor/willker" remote="github" name ="wz-willker/android_vendor_willker" />
 </manifest>
