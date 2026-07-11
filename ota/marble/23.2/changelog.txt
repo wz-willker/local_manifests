@@ -1,5 +1,11 @@
 上游更新日志：https://download.lineageos.org/devices/marble/changes
 
+20260709
+**注意**：未修复 CVE-2026-43499
+- 放弃反检测
+- 更新 7 月 1 日补丁
+- 合并 [AOSP ASB-2026-07-06_12-5.10](https://android.googlesource.com/kernel/common/+/refs/tags/ASB-2026-07-06_12-5.10) 内核更新
+
 20260627
 - 移除 CatShare
 - 启用 OTA
